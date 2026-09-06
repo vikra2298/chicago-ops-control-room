@@ -10,15 +10,13 @@ This is a functional prototype, not a dashboard.
 
 ## Judge this in 5 minutes
 
-1. **Live demo (if deployed)** — open the URL below; click **Refresh**.
-2. **Or run locally** — `docker compose up --build` (or `.\run.ps1` / `make run`), then [http://localhost:8080](http://localhost:8080).
+1. **Run** — `docker compose up --build` (or `.\run.ps1` / `make run`).
+2. **Open** — [http://localhost:8080](http://localhost:8080). Click **Refresh**.
 3. **Read the page** — one recommended action, historical demand vs average, live weather, why, and uncertainty.
 4. **SQL** — ranking + city average live in `backend/internal/db/rank.go` (`RANK()`, `AVG()`).
 5. **Tests** — `cd backend && go test ./...` (three flagship cases below).
 
-**Live demo:** _pending deploy — paste public URL here after Railway/Render/Fly_
-
-> A deployed URL is optional. Local one-command run is enough for evaluation.
+Screenshots of the running UI are in `docs/screenshots/`. A hosted demo URL is optional; one-command local run is enough for evaluation.
 
 ## Run locally
 
