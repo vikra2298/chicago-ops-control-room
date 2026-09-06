@@ -8,10 +8,11 @@
   --meta: #506565;
   --accent: #102a2b;
   --button: #143f40;
-  --teal: #287271;
+  --teal: #2d6a68;
   --amber: #a86b1c;
   --green: #2f7d5b;
   --red: #b85a45;
+  --pill-bg: #d7dedc;
   --shadow: 0 10px 25px rgba(24, 59, 59, 0.07);
 }
 
@@ -27,6 +28,7 @@ body,
   background: var(--bg);
   color: var(--text);
   font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
 }
 

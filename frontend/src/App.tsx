@@ -88,7 +88,7 @@ function RecommendationView({ data }: { data: Recommendation }) {
   return (
     <main>
       <section className={`hero tone-${tone}`}>
-        <p className="pill">{data.action_needed ? "Recommended action" : "No action needed"}</p>
+        <p className="pill">{data.action_needed ? "Do this now" : "No action needed"}</p>
         <h2>{data.headline}</h2>
         <p className="action">{data.action}</p>
         <p className="window">
