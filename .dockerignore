@@ -1,7 +1,8 @@
 .git
 frontend/node_modules
 frontend/dist
-backend/data
+backend/data/*.db
+backend/data/*.db-*
 **/*.db
 **/*.log
 docs/screenshots
