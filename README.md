@@ -20,7 +20,11 @@ Screenshots of the running UI are in `docs/screenshots/`.
 
 ### Deploy notes
 
-The live demo is the same Docker image as local, hosted on **Railway**. Alternatives that also run the root `Dockerfile` as one service: **Render** (`render.yaml`) or **Fly.io** (`fly.toml`).
+**Live hosting:** the demo runs on **[Railway](https://railway.app)** from this repo’s root `Dockerfile` (same image as `docker compose` locally — Go API + built React UI + SQLite seeded from `chicago_tnp_baselines.csv`). No local install is required to try the product.
+
+**Note:** on the free/hobby plan the service can sleep after idle time. The first open may take about **30–60 seconds** to wake; after that, Refresh should feel normal. Open-Meteo still needs outbound internet from the host.
+
+Alternatives that also run the same Dockerfile as one service: **Render** (`render.yaml`) or **Fly.io** (`fly.toml`).
 
 ## Run locally
 
