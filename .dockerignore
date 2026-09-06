@@ -1,0 +1,7 @@
+.git
+frontend/node_modules
+frontend/dist
+backend/data
+**/*.db
+**/*.log
+docs/screenshots

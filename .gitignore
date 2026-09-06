@@ -1,0 +1,16 @@
+.DS_Store
+Thumbs.db
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+backend/server.exe
+backend/server
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+.idea/
+.vscode/
+*.log
+.env
+.env.local

@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: chicago-ops-control-room
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: DB_PATH
+        value: /app/data/ops.db
