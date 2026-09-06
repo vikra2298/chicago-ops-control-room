@@ -237,7 +237,3 @@ Risks the tools introduced and that were corrected:
 ### What was technically hardest
 
 Turning a coarse historical baseline and a city-wide weather point into **one action an operator can take in the next hour**, without pretending the model can see live supply, events, or neighborhood radar. The threshold and the uncertainty list are the whole product judgment. The rest is plumbing.
-
-## Follow-up interview notes
-
-The live change that fits this codebase cleanly: adjust the weather threshold, add a weekday/hour override for replay, or swap the seed for a real TNP aggregation. The ranking SQL and `recommend.Decide` are the two places that encode the product.
